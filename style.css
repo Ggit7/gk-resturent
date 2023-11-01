@@ -57,3 +57,11 @@
     color: rgb(235, 72, 32);
     text-align: center;
 }
+.nav-links{
+    flex-direction: row;
+}
+@media(max-width:600){
+    .nav-links{
+        flex-direction: column;
+    }
+}
