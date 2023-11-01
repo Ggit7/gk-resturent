@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    font-family: Arial; 
+    border: border-box;
+} 
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffcfc;
+    padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    height: 150px; /* Adjust the height of the logo as needed */
+}
+
+/* Navigation bar links */
+.nav-links a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* On hover, the links will change color */
+.nav-links a:hover {
+    color: #972424;
+}
+/* Style the footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.contact{
+    text-align: center;
+    color: #972424;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.company{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    color:#0a0505;
+    font-size: 30px;
+}
+.contener{
+    font-size: 10px;
+    color: rgb(235, 72, 32);
+    text-align: center;
+}
